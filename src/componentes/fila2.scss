@@ -1,0 +1,22 @@
+.contenedor{
+    background-color: white;
+    display: flex;
+    flex-direction: horizontal;
+}
+
+.contenedor .widget-1,
+.contenedor .widget-2,
+.contenedor .widget-3 {
+    background-color: grey;    
+    width: 250px;
+    height: 255px;
+    margin: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .widget-1:hover,
+.contenedor .widget-2:hover,
+.contenedor .widget-3:hover {
+    transform: scale(1.2);}
